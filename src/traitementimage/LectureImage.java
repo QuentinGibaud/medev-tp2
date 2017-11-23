@@ -42,6 +42,7 @@ public class LectureImage {
             }
             else{
                 System.err.println("Not a corrent pgm fil");
+                //test
             }            
         } catch (FileNotFoundException ex) {
             Logger.getLogger(LectureImage.class.getName()).log(Level.SEVERE, null, ex);
